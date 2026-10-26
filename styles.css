@@ -112,7 +112,7 @@ section { padding: clamp(3.5rem, 8vw, 6rem) clamp(1.25rem, 6vw, 5rem); }
 
 /* Servicios */
 .servicios { background: var(--blanco); padding-top: 0; }
-.servicios h2 { max-width: none; }
+.servicios h2 { max-width: none; margin-bottom: 3rem; }
 .servicios__intro { font-size: 1.15rem; margin: .75rem 0 2.5rem; max-width: 50ch; }
 .servicios__lista { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
 .servicio { padding: 2rem; min-height: 15rem; display: flex; flex-direction: column; justify-content: space-between; }
