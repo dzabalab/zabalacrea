@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZabalaCrea. | Marketing, diseño y contenido</title>
+  <meta name="description" content="Diseño con color y estilo para tu marca. Marketing, estrategia y creatividad por ZabalaCrea.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Caveat:wght@500&family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="barra">
+    <a href="#inicio" class="barra__logo"><img src="imagenes/logo.png" alt="ZabalaCrea."></a>
+    <nav class="barra__menu" aria-label="Principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto" class="boton boton--chico">Escríbeme</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+
+    <section class="hero">
+      <div class="hero__texto">
+        <h1>Hola, soy <span class="marca">ZabalaCrea.</span></h1>
+        <p class="hero__lema">Diseño, marketing y contenido para emprendedores y marcas que quieren verse profesionales en redes.</p>
+        <div class="hero__acciones">
+          <a href="#contacto" class="boton">Cuéntame tu idea</a>
+          <a href="https://instagram.com/zabalacrea" class="boton boton--borde" target="_blank" rel="noopener">Ver Instagram</a>
+        </div>
+      </div>
+      <figure class="hero__foto">
+        <img src="imagenes/zabalacrea-escritorio.png" alt="ZabalaCrea trabajando en su escritorio con diseño y código en pantalla">
+      </figure>
+    </section>
+
+    <section class="sobre" id="sobre-mi">
+      <h2>Ingeniería, marketing y diseño en una sola mente.</h2>
+      <div class="sobre__cuerpo">
+        <p>Soy ingeniera de sistemas, y eso me da orden y lógica para resolver problemas. Tengo certificados en marketing digital, así que pienso en estrategia antes de diseñar.</p>
+        <p>Ahora estoy certificándome en diseño gráfico para que cada pieza se vea bien y cumpla su objetivo: que tu marca se entienda y se recuerde.</p>
+        <ul class="credenciales">
+          <li>Ingeniería de sistemas</li>
+          <li>Certificada en marketing digital</li>
+          <li>Certificación en diseño gráfico <em>(en curso)</em></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="servicios" id="servicios">
+      <h2>Lo que hago por tu marca</h2>
+      <p class="servicios__intro">Así trabajo: de tu idea a contenido listo para publicar, en tres pasos.</p>
+      <ol class="servicios__lista">
+        <li class="servicio servicio--lila">
+          <div>
+            <span class="servicio__num">1</span>
+            <h3>Marketing</h3>
+          </div>
+          <p>Me cuentas sobre tu marca y tu público. Armo una estrategia clara: qué publicar, a quién y para qué.</p>
+        </li>
+        <li class="servicio servicio--negro">
+          <div>
+            <span class="servicio__num">2</span>
+            <h3>Diseño</h3>
+          </div>
+          <p>Creo las piezas con tus colores y tu estilo, para que tu marca se vea profesional y coherente.</p>
+        </li>
+        <li class="servicio servicio--azul">
+          <div>
+            <span class="servicio__num">3</span>
+            <h3>Contenido</h3>
+          </div>
+          <p>Te entrego posts, carruseles y reels listos para publicar, con ajustes incluidos.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="frase">
+      <p>Una idea sin publicar es solo <span class="manuscrito">un borrador de lo que pudo ser.</span></p>
+    </section>
+
+    <section class="contacto" id="contacto">
+      <h2>¿Empezamos?</h2>
+      <p>Escríbeme y cuéntame qué necesita tu marca.</p>
+      <div class="contacto__medios">
+        <a href="mailto:zabalacrea@gmail.com" class="boton">zabalacrea@gmail.com</a>
+        <a href="https://instagram.com/zabalacrea" class="boton boton--borde" target="_blank" rel="noopener">@zabalacrea</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <img src="imagenes/logo.png" alt="ZabalaCrea." class="pie__logo">
+    <p>&copy; <span id="anio">2026</span> ZabalaCrea. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>document.getElementById('anio').textContent = new Date().getFullYear();</script>
+</body>
+</html>
